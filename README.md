@@ -20,7 +20,7 @@ Fui além nesse desafio e utilizei uma API para pegar todos os emojis e colocar 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <br>
 <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
 </div>
-[🔗 API: Emoji API]()
+[🔗 API: Emoji API](https://andersonrodrigs.github.io/Emoji-picker/)
 
 <!--# Autor:-->
 ## Contato
