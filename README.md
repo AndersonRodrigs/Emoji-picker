@@ -10,7 +10,7 @@ Fui além nesse desafio e utilizei uma API para pegar todos os emojis e colocar 
 • Contem um botão onde o usuário poderá escolher entre os dois temas: dark e light. 
 
 
-[🔗 Clique aqui para acessar]()
+[🔗 Clique aqui para acessar](https://andersonrodrigs.github.io/Emoji-picker/)
 
 ## 🛠 Tecnologias utilizadas:
 
@@ -21,7 +21,7 @@ Fui além nesse desafio e utilizei uma API para pegar todos os emojis e colocar 
 <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
 </div>
 
-[API: Emoji API](https://andersonrodrigs.github.io/Emoji-picker/)
+[API: Emoji API](https://emoji-api.com/)
 
 <!--# Autor:-->
 ## Contato
