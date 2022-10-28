@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../assets/cool.png" type="image/x-icon" />
+
+    <script
+      src="https://kit.fontawesome.com/887ffa7632.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Emoji picker</title>
+  </head>
+  <body class="theme">
+    <nav class="navigation">
+      <h1 class="title">Emoji picker</h1>
+      <button class="change-theme" onclick="changeTheme()">
+        <i class="fa-solid fa-sun"></i>
+      </button>
+      <form action="" class="form">
+        
+        <input
+          type="text"
+          placeholder="Digte o nome do emoji"
+          id="input"
+          required
+        />
+        <button id="button" class="button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </nav>
+
+    <main class="container">
+      <span class="tooltip">Clique no emoji para copiar.</span>
+
+      <section class="emoji-area">
+        <ul id="emojis" class="emojis"></ul>
+      </section>
+      
+      <div class="loading hide">
+        <span class="area-loading">
+          <h3>Carregando emojis</h3>
+          <span class="loopi">🙃</span>
+        </span>
+      </div>
+      <div class="emoji-not-found hide">
+        <span class="area-loading">
+          <h3>Não foi possível encontrar um emoji com esse nome ...🤔</h3>
+        </span>
+      </div>
+    </main>
+
+    <footer>
+      <div class="content">
+        <div class="author">
+          <p>
+            Desenvolvido por
+            <a
+              href="https://www.linkedin.com/in/anderson-rodrigues-s"
+              target="_blank"
+              class="name"
+              >Anderson Rodrigues</a
+            >
+          </p>
+          <p>API:<a href="https://emoji-api.com/" target="_blank"> Emoji API</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="alert hide">
+      <span>
+        <h2 id="copied-emoji"></h2>
+      </span>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
