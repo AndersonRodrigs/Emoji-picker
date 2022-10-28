@@ -7,7 +7,7 @@ Projeto proposto no desafio 20/21 da Rocketseat (21 Dias De Código), onde o foi
 Fui além nesse desafio e utilizei uma API para pegar todos os emojis e colocar à disposição para o usuário escolher. Onde também, ele pode copiar qualquer emoji que quiser apenas clicando em cima, e pronto o emoji será copiado para sua área de transferência. 
 
 • Projeto totalmente responsivo com o uso de media query. <br>
-• Botão onde o usuário poderá escolher entre os dois temas: dark e light. 
+• Contem um botão onde o usuário poderá escolher entre os dois temas: dark e light. 
 
 
 [🔗 Clique aqui para acessar]()
