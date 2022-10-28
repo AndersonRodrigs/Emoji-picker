@@ -1,5 +1,6 @@
 # Emoji-picker
 
+![image](https://user-images.githubusercontent.com/105132452/198699660-09216962-8476-40ab-b5ed-3f6d471d2394.png)
 
 ## Sobre o projeto:
 
